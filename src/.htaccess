@@ -1,0 +1,15 @@
+removeHandler cgi-script .cgi .pl .py .rb
+
+
+IndexIgnore .. __* *.html *.txt
+
+
+HeaderName  ./autoindex_head.html
+ReadmeName  ./autoindex_end.txt
+IndexOptions SuppressHTMLPreamble
+
+#IndexOptions FancyIndexing HTMLTable
+IndexOptions FancyIndexing
+
+IndexOptions NameWidth=*
+

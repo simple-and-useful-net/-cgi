@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Webアプリについて</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.36" />
+</head>
+
+<body>
+<h1>PythonでつくるWebアプリの基本</h1>
+<h2>（改訂２版 ログイン処理をつくる）Webアプリをつくる為の入門書</h2>
+
+
+<pre>
+<h4>「ソースコードの表示はおそらく文字化けしますので、UTF-8に変更して下さい」は
+クローム拡張機能（テキストエンコーディング）を入れなくても正しく表示されるようになりました</h4>
+
+<a href="https://www.amazon.co.jp/dp/B0B65TSBG9">キンドルで本を出版しました！</a>
+
+興味のある方は、みて下さいね！
+
+<hr>
+改訂版では、「ログイン処理をつくる」を追記しました、ザックリと内容は…
+
+・仕様（ID作成、ログイン、ログアウト、ログイン判定）について
+・自作モジュール開発のやり方（クラス作成を含む）
+・MySQLを使った自作モジュール（DB操作モジュール）
+・クッキーのモジュールのテスト方法（クッキー操作モジュール）
+・デベロッパツールの使い方（クッキーの場合）
+
+<hr>
+ここでは、本で説明している全ソースコードを載せています。
+（閲覧できます、ダウンロードも可能ですのお試し下さい）
+
+※MySQLを使用していますのでご注意下さい！
+
+
+
+
+<h2>ログイン処理</h2>
+
+<a href="https://www.simple-and-useful.net/book/webapp/cgi/loginMain.py">ログイン処理の動かしてみる</a>
+<a href="src/">コードをみる</a>
+<a href="dload/">コードのダウンロード</a>
+
+
+
+<hr>
+モジュール単体でテストをする！
+loginCook.py
+動かす前にデベロッパツール（F12押下すると表示されます）でアプリケーションを選択後にCookie表示する
+
+<a href="cgi/loginCook.py?test=set">クッキー設定</a>
+<a href="cgi/loginCook.py?test=get">クッキー取得</a>
+<a href="cgi/loginCook.py?test=del">クッキー削除</a>
+
+
+<hr>
+
+<hr>
+<h1>テキストエンコーディング</h1>
+
+<img src="http://icecream.me/5e5e5ae93ca6e70eaba09682b1d4a5b6">
+ネットブラウザでは、表示コンテンツにより文字化けする場合があります、
+クロームの拡張機能のこちらをインストールしておくと開発等に便利です。
+
+<b>インストール方法</b>
+chromeの拡張機能（テキストエンコーディング）<a href="https://chrome.google.com/webstore/detail/set-character-encoding/bpojelgakakmcfmjfilgdlmhefphglae/related?hl=ja">テキストエンコーディング</a>にアクセス
+
+マウスの右クリックにより
+ホーム -> 拡張機能 -> テキストエンコーディング
+で設定できます。
+
+使い方
+  上記の拡張機能をインストールします。
+  ブラウザでマウスで右をクリックしてメニューを出す
+  UTF-8を選択すると文字化けが解消します
+
+
+<hr>
+更新日付 2023/02/26
+</pre>
+
+</body>
+
+</html>
